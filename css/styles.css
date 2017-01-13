@@ -303,4 +303,20 @@ figure {
     margin: 0;
     padding: 0;
   }
+
+  /* FIRST MOVIE */
+
+  .movie:first-child {
+    float: none;
+    width: 100%;
+  }
+
+  .movie:first-child .movie-backdrop, .movie:first-child .movie-overview {
+    display: block;
+  }
+
+  .movie:first-child .movie-poster {
+    display: none;
+  }
+  
 }
