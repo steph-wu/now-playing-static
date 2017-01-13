@@ -198,6 +198,14 @@ figure {
 
 @media (min-width: 768px) {
 
+  /* BODY (DELETE PADDING) */
+
+  body {
+    padding: 0;
+  }
+
+  /* SITE NAVIGATION */
+
   .site-nav {
     background-color: #eee;
     position: fixed;
@@ -221,6 +229,8 @@ figure {
     padding: 0;
   }
 
+  /* MOVIE */
+
   .movie-overview {
     display: block;
   }
@@ -228,11 +238,37 @@ figure {
   .movie-backdrop {
     display: block;
     width: 100%;
-    margin-left: 100px;
+    left: 110px;
   }
 
   .movie-details {
-    left: 110px;
+    padding-left: 130px;
+    width: 100%;
+  }
+
+  .site-footer {
+    text-align: center;
+  }
+
+  /* FOOTER */
+
+  .site-footer {
+    clear: both;
+    overflow: hidden;
+    background-color: black;
+    left: 100px;
+    color: #fff;
+  }
+
+  .footer-nav {
+    float: left;
+    margin-left: 110px;
+    padding-top: 25px;
+  }
+
+  .about {
+    float: right;
+    background-color: black;
   }
 
 }
