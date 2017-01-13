@@ -199,9 +199,13 @@ figure {
 @media (min-width: 768px) {
 
   .site-nav {
-    width: 90px;
+    background-color: #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 110px;
     height: 100%;
-    padding-top: 90px;
+    padding-top: 110px;
   }
 
   .site-nav-item {
@@ -211,10 +215,24 @@ figure {
   }
 
   .site-logo {
-    width: 60px;
+    max-width: 100%;
     margin: 0 auto;
     z-index: 110;
     padding: 0;
+  }
+
+  .movie-overview {
+    display: block;
+  }
+
+  .movie-backdrop {
+    display: block;
+    width: 100%;
+    margin-left: 100px;
+  }
+
+  .movie-details {
+    left: 110px;
   }
 
 }
