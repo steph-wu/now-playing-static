@@ -270,5 +270,37 @@ figure {
     float: right;
     background-color: black;
   }
+}
 
+@media (min-width: 992px) {
+
+  main {
+    padding-left: 110px;
+    clear: both;
+    overflow: hidden;
+  }
+
+  .movie-overview, .movie-backdrop {
+    display: none;
+  }
+
+  .movie-poster {
+    display: block;
+  }
+
+  .movie {
+    float: left;
+    width: 33.3%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .movie-details {
+    padding-left: 15px;
+  }
+
+  .movie-image {
+    margin: 0;
+    padding: 0;
+  }
 }
